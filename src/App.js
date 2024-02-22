@@ -2,10 +2,10 @@
 
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Text from "./components/Text";
+
 import Alert from "./components/Alert";
 import React, { useState } from "react";
-import About from "./components/About";
+
 
 
 
