@@ -10,14 +10,25 @@
 <body>
     <h1>Yogi</h1>
     <div id="yogi"></div>
-    <script>
-        class Hello extends React.Component {
+    <script  type="text/babel">
+        
+        function Message(){
+            const ms=()=>{alert("Hii Yogi")}
+            return <button onClick={ms}>clickme</button>
+
+            
+        }
+
+        class Hello extends React.Component
+         {
                 render() {
-                    return <div > My Full Name is Yogender Kumar Singh < /div>            }
-                }
+                            return <div> My Full Name is Yogender Kumar Singh  < Message /></div>
+                        }
+         }
+        
+         ReactDOM.render(<Hello/> , document.getElementById("yogi"))          
     </script>
-    ReactDom.render(
-    <Hello /> , document.getElementById('yogi'))
+
 </body>
 
 </html>
