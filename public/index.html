@@ -8,17 +8,16 @@
 </head>
 
 <body>
-    <div id="mydiv">
-    </div>
-    <script type="text/babel">
-        function Test() { const bla=()=>{alert("Hello React")} return <button onClick={bla}>Click Me</button> } class Hello extends React.Component { render() { return
-        <div>Hello React code
-            <Test />
-        </div>
-        } } ReactDOM.render(
-
-        <Hello />,document.getElementById('mydiv'))
+    <h1>Yogi</h1>
+    <div id="yogi"></div>
+    <script>
+        class Hello extends React.Component {
+                render() {
+                    return <div > My Full Name is Yogender Kumar Singh < /div>            }
+                }
     </script>
+    ReactDom.render(
+    <Hello /> , document.getElementById('yogi'))
 </body>
 
 </html>
