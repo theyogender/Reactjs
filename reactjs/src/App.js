@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+// import Fcompo from './Components/Fcomp';
+import {Fcompo} from './Components/Fcomp';
+import ClassBcompo from './Components/ClassBcompo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <Fcomponent/>
+    <Fcompo/>
+    <ClassBcompo/>
+   </div>
   );
+}
+
+function Fcomponent(){    //Function Base component
+  return(
+    <div>
+      <h1>Function base component</h1>
+      <h2>Sunceesfull</h2>
+      
+      
+    </div>
+  )
 }
 
 export default App;
