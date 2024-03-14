@@ -1,0 +1,2 @@
+//JSX=Javascript Xml : Enable using html and Javascript in components
+//as in Only javascrpt we have to use <script></script> tags,without script tags it is very complicated ike using .creteElement('h1')
