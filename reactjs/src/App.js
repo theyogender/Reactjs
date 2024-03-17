@@ -8,6 +8,7 @@ import Prop from './Components/Prop';
 import { useState } from 'react';
 // import Input from './Components/Input';
 import Form from './Components/Form';
+import FormValidation from './Components/FormValidation';
 
 function App() {
   
@@ -23,7 +24,8 @@ function App() {
     {/* <Prop  name={n}  f={pf}/> */}
     {/* <button onClick={()=>{u('Yogender Kumar Singh')}}>Change Name</button> */}
     {/* <Input /> */}
-    < Form />
+    {/* < Form /> */}
+    <FormValidation />
    </div>
   );
 }
