@@ -45,8 +45,8 @@ export default function FormValidation()
         else
         {
             alert('Submitted')
-            console.log(atext)
-            console.log(apassW)
+            // console.log(atext)
+            // console.log(apassW)
         }
     }
 

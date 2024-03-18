@@ -13,6 +13,12 @@ import FormValidation from './Components/FormValidation';
 function App() {
   
   const [n,u]=useState('Yogi Singh')
+   
+  function aprop(){
+    return(
+      alert('Yogi from app')
+    )
+  }
   
 
   return (
@@ -21,7 +27,7 @@ function App() {
     {/* <Fcompo/> */}
     {/* <ClassBcompo/> */}
     {/* <State/> */}
-    {/* <Prop  name={n}  f={pf}/> */}
+    <Prop  name={n}  f={aprop}/>
     {/* <button onClick={()=>{u('Yogender Kumar Singh')}}>Change Name</button> */}
     {/* <Input /> */}
     {/* < Form /> */}
