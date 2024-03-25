@@ -9,6 +9,7 @@ import { useState } from 'react';
 // import Input from './Components/Input';
 import Form from './Components/Form';
 import FormValidation from './Components/FormValidation';
+import Hook from './Components/Hook';
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
     {/* <Input /> */}
     {/* < Form /> */}
     <FormValidation />
+    <Hook/>
    </div>
   );
 }

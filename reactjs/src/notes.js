@@ -5,6 +5,11 @@
 //React is a library we can use it with angular or other frameworks
 //JSX can be used with react also
 
+//Hooks : Hooks are used to implement life cycle methods in Function Base Components ,'use' word is genrally a Hook like useState
+//We can not use Hook in class Base Component
+
+//UseEffect :It is a Hook which is called every time i.e when a component mount,updated and unmounted,We can use it conditionally also
+
 
 //Life cycle methods : 
 //Constructor life cycle emthod : Constructor is a life cycle method as if you want to do a job (defining states)before becoming a component ready 
@@ -119,4 +124,42 @@
 //       </div>
 //     );
 //   }
+// }
+
+
+//ComponentWillUnmount life cycle method : Call automatically when a component is hide or removed
+
+// import Student from './Student'
+// class App extends React.Component {
+//   constructor()
+//   {
+//     super();
+//     this.state={
+//       show:true
+//     }
+//   }
+//   render() {
+//     return (
+//       <div className="App">
+//         {
+//           this.state.show?<Student />
+//           :<h4>Component is removed</h4>
+//         }
+//         <button onClick={()=>this.setState({show:false})}> Toogle Student Component</button>
+//       </div>
+//     )
+//   }
+// }
+
+
+// class Student extends React.Component{
+
+//     componentWillUnmount()
+//     {
+//         alert("componentWillUnmount is called")
+//     }
+//     render()
+//     {
+//         return<h1>Student Component</h1>
+//     }
 // }
