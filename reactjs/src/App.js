@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Form from './Components/Form';
 import FormValidation from './Components/FormValidation';
 import Hook from './Components/Hook';
+import Navbar from './Components/Navbar';
 
 function App() {
   
@@ -28,12 +29,13 @@ function App() {
     {/* <Fcompo/> */}
     {/* <ClassBcompo/> */}
     {/* <State/> */}
-    <Prop  name={n}  f={aprop}/>
+    {/* <Prop  name={n}  f={aprop}/> */}
     {/* <button onClick={()=>{u('Yogender Kumar Singh')}}>Change Name</button> */}
     {/* <Input /> */}
     {/* < Form /> */}
     <FormValidation />
-    <Hook/>
+    {/* <Hook/> */}
+    <Navbar />
    </div>
   );
 }
